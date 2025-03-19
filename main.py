@@ -1,6 +1,5 @@
 from mcstatus import JavaServer, motd
 from fastapi import FastAPI
-from fastapi.responses import FileResponse
 
 app = FastAPI()
 
