@@ -13,8 +13,6 @@ async def players(server: str, port: str, class2: str, class3: str):
             return {"response": status.players.online}
         elif class3 == "max":
             return {"response": status.players.max}
-    elif class2 == "motd":
-        return {"response": status.motd}
 
 @app.get("/api-1/{server}/{port}/{class2}")
 async def players(server: str, port: str, class2: str):
